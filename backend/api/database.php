@@ -11,10 +11,10 @@ header("Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type,Acc
 /*
  * Variables that hold DB credentials
  */
-define('DB_HOST','127.0.0.1');
-define('DB_USER','root');
-define('DB_PASS','swimmyCfcrgr8');
-define('DB_NAME','mydb');
+define('DB_HOST','YOUR DB HOST');
+define('DB_USER','YOUR DB USERNAME');
+define('DB_PASS','YOUR DB PASSWORD');
+define('DB_NAME','YOUR DB NAME');
 
 
 function connect() {
